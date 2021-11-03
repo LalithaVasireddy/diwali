@@ -1,0 +1,193 @@
+html {
+	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 16px;
+	word-spacing: 1px;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+}
+.radio-toolbar {
+		width: 100%;
+	  text-align: center;
+  }
+.radio-toolbar input[type="radio"] {
+	opacity: 0;
+	position: fixed;
+	width: 0;
+  }
+  .radio-toolbar label {
+    display: inline-block;
+    background-color:transparent;
+    padding: 8px 5px;
+    font-family: sans-serif, Arial;
+    font-size: 14px;
+    border-radius: 1px;
+	color:#227ce2;
+}
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color:white;
+    color:#227ce2;
+}
+.radio-toolbar input[type="radio"]:focus + label {
+    border: 2px dashed white;
+}
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;	
+  }
+
+  .buttonClass {
+	  width: 100%;
+	  text-align: center;
+  }
+
+  .button {
+	background-color:white;
+	border: none;
+	color: #227ce2;
+	padding: 10px 28px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;	
+	align-items: center;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .thankyou {
+	  background-image: url(../images/FB.jpg);
+	  text-align: center;
+	  font-size: 24px;
+	  color: white;
+	  padding-top: 20px;
+	  margin-top: 20px;
+	  margin-bottom: 20px;
+	  padding-bottom: 20px;
+  }
+
+  a:link {
+	  color: #227ce2;
+	  background-color: transparent;
+  }
+
+  .name {
+	text-align: center;
+	color: #227ce2;
+}
+.slogan {
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+
+.heading {
+	text-align: center;
+	font-size: 24px;
+    line-height: 40px;
+	color: white;
+}
+.player-wrapper {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.react-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.box, .boxEnd{	
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	padding-top: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	background-image:url(../images/FB.jpg);
+  }
+  .outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 440px;
+    width: 440px;
+    padding: 44px;
+    margin-bottom: 28px;
+    background-image:url(../images/F1.jpg);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    min-width: 320px;
+    min-height: 338px;
+    overflow: hidden
+}
+
+@media screen and (min-device-width : 381px) and (max-device-width : 400px) {
+	.inner {
+		background-image:url(../images/F2.jpg);
+		width:380px;
+	}	
+}
+@media screen and (min-device-width : 320px) and (max-device-width : 380px) {
+	.inner {
+		background-image:url(../images/F4.jpg);
+		min-height: 300px;
+		width:320px;
+	}	
+}
+
+@media (min-width : 1224px) {	
+	.box {
+		background-color: transparent;
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		position: absolute;
+		text-align: center;
+		width: 95%;
+		top: 80%;
+		left: 5%;
+		background-image: none;
+	  }
+	  .boxEnd {	
+		font-size: 20px;
+		font-weight: bold;
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		padding-top: 25px;
+		font-family: Arial, Helvetica, sans-serif;
+		color:white;
+		background-image:url(../images/FB.jpg);
+	  }
+}
+
+
+
+
+
+
+
