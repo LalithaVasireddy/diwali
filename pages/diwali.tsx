@@ -19,7 +19,7 @@ const sleep = (milliseconds) => {
 		const [SpreadBlessing, setSpreadBlessing] = useState(true);
 		const [inputValue, setInputValue] = useState('');
 
-		var youTubeUrl = "https://youtu.be/ecF3fKaSb0Q";
+		var youTubeUrl = "https://brahmakumaris.org.au/new/wp-content/uploads/2021/08/Main-Comp-V13-1.m4v";
 
 		if(router.query.lan == "tamil")
 			youTubeUrl = "https://youtu.be/vFhhN4JpqgY";
@@ -74,7 +74,7 @@ const sleep = (milliseconds) => {
 			if(playedSeconds >= 5 && !GaveBlessing) {			
 				setGaveBlessing(true)							
 			}
-			if(playedSeconds >= 176) {			
+			if(playedSeconds >= 208) {			
 				setWatchComplete(true)							
 			}
 		}
@@ -130,8 +130,8 @@ const sleep = (milliseconds) => {
 										
 									
 									
-										<div>Thank you for joining the Australian Virtual Centre online Diwali</div><br />
-									<div>Please join our meditation classes / workshops on</div>
+										<div>Thank you for joining the Australian Virtual Centre online Diwali experience</div><br />
+									<div>Visit the Australian Virtual (Meditation) Centre for more free online classes, events, meditation and more!</div>
 									<div><a href="https://brahmakumaris.org.au/new/virtual-centre">https://brahmakumaris.org.au/new/virtual-centre</a></div><br />
 									
 									</div>

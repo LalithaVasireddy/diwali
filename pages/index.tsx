@@ -33,24 +33,28 @@ const preventDefault = (f) => (e) => {
 				<title>Diwali Blessings 2021</title>
 				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />					
 			</Head>
-			<div className="">				
-					<div className="outer">
-						<div className="middle">	
-						<div className="inner">							
-							
-								<form onSubmit={handleSubmit}>	
-								<div className="heading"></div>								
-								<br></br><br/><br/>
-									<div><input type="text" placeholder="Please enter your name" autoFocus onChange={handleChange}></input></div>
-									<br />
-									
-									<div className="buttonClass"><button className="button"><b>Let’s Begin</b></button></div>								
-								</form>										
-							
-							</div>						
-						</div>
+			{ false && (
+				<div className="">				
+				<div className="outer">
+					<div className="middle">	
+					<div className="inner">							
+						
+							<form onSubmit={handleSubmit}>	
+							<div className="heading"></div>								
+							<br></br><br/><br/>
+								<div><input type="text" placeholder="Please enter your name" autoFocus onChange={handleChange}></input></div>
+								<br />
+								
+								<div className="buttonClass"><button className="button"><b>Let’s Begin</b></button></div>								
+							</form>										
+						
+						</div>						
 					</div>
-			</div>	
+				</div>
+		</div>	
+			)
+			}
+			
 			</div>
 		);
 	};
